@@ -1,0 +1,69 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?4c39014562db394b3732f59bf28fc600") format("truetype"),
+url("./flaticon.woff?4c39014562db394b3732f59bf28fc600") format("woff"),
+url("./flaticon.woff2?4c39014562db394b3732f59bf28fc600") format("woff2"),
+url("./flaticon.eot?4c39014562db394b3732f59bf28fc600#iefix") format("embedded-opentype"),
+url("./flaticon.svg?4c39014562db394b3732f59bf28fc600#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "len": "\f101",
+    "lens-hood": "\f102",
+    "focus": "\f103",
+    "play-button": "\f104",
+    "star-in-black-of-five-points-shape": "\f105",
+    "right-long-black-arrow": "\f106",
+    "pin": "\f107",
+    "letter": "\f108",
+    "planet-earth": "\f109",
+    "camera-lens": "\f10a",
+    "drop": "\f10b",
+);
+
+.flaticon-len:before {
+    content: map-get($flaticon-map, "len");
+}
+.flaticon-lens-hood:before {
+    content: map-get($flaticon-map, "lens-hood");
+}
+.flaticon-focus:before {
+    content: map-get($flaticon-map, "focus");
+}
+.flaticon-play-button:before {
+    content: map-get($flaticon-map, "play-button");
+}
+.flaticon-star-in-black-of-five-points-shape:before {
+    content: map-get($flaticon-map, "star-in-black-of-five-points-shape");
+}
+.flaticon-right-long-black-arrow:before {
+    content: map-get($flaticon-map, "right-long-black-arrow");
+}
+.flaticon-pin:before {
+    content: map-get($flaticon-map, "pin");
+}
+.flaticon-letter:before {
+    content: map-get($flaticon-map, "letter");
+}
+.flaticon-planet-earth:before {
+    content: map-get($flaticon-map, "planet-earth");
+}
+.flaticon-camera-lens:before {
+    content: map-get($flaticon-map, "camera-lens");
+}
+.flaticon-drop:before {
+    content: map-get($flaticon-map, "drop");
+}

@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?4c39014562db394b3732f59bf28fc600") format("truetype"),
+url("./flaticon.woff?4c39014562db394b3732f59bf28fc600") format("woff"),
+url("./flaticon.woff2?4c39014562db394b3732f59bf28fc600") format("woff2"),
+url("./flaticon.eot?4c39014562db394b3732f59bf28fc600#iefix") format("embedded-opentype"),
+url("./flaticon.svg?4c39014562db394b3732f59bf28fc600#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-len:before {
+    content: "\f101";
+}
+.flaticon-lens-hood:before {
+    content: "\f102";
+}
+.flaticon-focus:before {
+    content: "\f103";
+}
+.flaticon-play-button:before {
+    content: "\f104";
+}
+.flaticon-star-in-black-of-five-points-shape:before {
+    content: "\f105";
+}
+.flaticon-right-long-black-arrow:before {
+    content: "\f106";
+}
+.flaticon-pin:before {
+    content: "\f107";
+}
+.flaticon-letter:before {
+    content: "\f108";
+}
+.flaticon-planet-earth:before {
+    content: "\f109";
+}
+.flaticon-camera-lens:before {
+    content: "\f10a";
+}
+.flaticon-drop:before {
+    content: "\f10b";
+}
